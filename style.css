@@ -1,0 +1,9 @@
+.mainBar .navbar-brand{
+    color: white; 
+    padding: 15px;
+    size: 20px;
+    font-weight: bold;
+    background-color: #008BAC;
+    font-family: Times;
+
+}
