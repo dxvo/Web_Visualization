@@ -1,6 +1,6 @@
-# Unit 11 | Assignment - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard (Latitude)
 
-[Page_link](https://dxvo.github.io/Web_Visualization/index.html)
+[--> Link to Published Page](https://dxvo.github.io/Web_Visualization/index.html)
 
 ## Background
 
