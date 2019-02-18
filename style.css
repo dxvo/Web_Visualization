@@ -18,13 +18,24 @@ img{
 	padding: 13px;
 }
 
-.left_col {
-	margin-bottom: 40px;
-	margin-top: 40px;
+.col {
+	margin-bottom: 30px;
+	margin-top: 30px;
 	background-color: #F4F4F4;
-	padding: 15px; 
+	padding: 10px; 
 }
 
 body{
-	background-color: #BFBFBF
+	background-color: #BFBFBF;
+}
+
+.panel:hover{
+    border-color: #000000;
+    border-style: solid; 
+}
+
+.display{
+	height: 110%; 
+	width: 110%;
+	padding: 1px; 
 }
