@@ -29,7 +29,7 @@
 			      <li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Plots</a>
 			        <div class="dropdown-menu">
-			          <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+			          <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
 			          <a class="dropdown-item" href="humidity.html">Humidity</a>
 			          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
 			          <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
@@ -47,8 +47,60 @@
 		</nav>
 	</div>
 
+  <div class="container">
+    <div class="row">
+    	<div class="col-lg-7 col-md-12">
+	        <div class="col">
+	          <h3 style="color: #009ED2; font-weight: bold;">Cloudiness</h3>
+	          <hr>
+	          <img src="Resources/assets/images/Fig3.png"  class = "plot" alt="Cloudiness vs Latitude Graph">
+	          <p>Cloudiness does not show a strong correlation to latitude. The visualization shows a great variety of
+            cloudiness percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive
+            pattern between cloudiness and latitude.</p>
+	        </div>
+        </div>
+
+        <div class="col-lg-5 col-md-12">
+            <div class="col">
+                <h3 style="color: #009ED2; font-weight: bold;">Visualizations</h3>
+                <hr>
+
+                <div class="container">
+                    <div class="row" style="padding-bottom: 20px;">
+                        <div class="col-6">
+                            <a href="max_temp.html">
+                                <img class = "panel display"  src="Resources/assets/images/Fig1.png" alt="Max Temp vs Lattitude Graph">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="humidity.html">
+                                <img class = "panel display"  src="Resources/assets/images/Fig2.png" alt="Humidity vs Lattitude Graph">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-bottom: 20px;">
+                        <div class="col-6">
+                            <a href="cloudiness.html">
+                                <img class = "panel display"  src="Resources/assets/images/Fig3.png" alt="Cloudiness vs Lattitude Graph">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="wind_speed.html">
+                                <img class = "panel display"  src="Resources/assets/images/Fig4.png" alt="Wind Speed vs Lattitude Graph">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 	<footer>
-		 <div class="footer">Copyright &copy; DeVo 2019</div>
+		 <div class="footer" style="padding: 12px;">Copyright &copy; DeVo 2019</div>
   	</footer>
 
 
